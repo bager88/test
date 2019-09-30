@@ -1,0 +1,735 @@
+/* oswald-500 - latin_cyrillic */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+       url('../fonts/oswald-v25-latin_cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/oswald-v25-latin_cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* oswald-regular - latin_cyrillic */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/oswald-v25-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/oswald-v25-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+html{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Oswald';
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: #513E31;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+}
+
+.slide1{
+  width: 100%;
+  height: 100%;
+  height: 100vh;
+}
+
+/*Начало оформления шапки*/
+.header{
+  display: flex;
+  height: 80px;
+  background: #FFFFFF;
+}
+
+.logo{
+  display: flex;
+  width: 20%;
+  margin: 8px 8px 7px 31px;
+}
+
+.nav-bar{
+  margin-top: 10px;
+}
+
+.nav{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+}
+
+.nav-way{
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 21px;
+  color: #513E31;
+  margin-left: 27px;
+}
+
+.nav li{
+  display: inline-block;
+}
+
+.nav li a:hover{
+  color: #4C9F35;
+}
+
+.nav-icons{
+  margin: 20px;
+  display: flex;
+  width: 53px;
+}
+
+.vk{
+  margin-right: 11px;
+  width: 21px;
+  height: 21px;
+  border: 1px solid #4C9F35;
+  box-sizing: border-box;
+  display: inline-block;
+  border-radius: 50%;
+  background: url(../img/path59.png) no-repeat center;
+  background-size: 10px;
+}
+
+.inst{
+  width: 21px;
+  height: 21px;
+  border: 1px solid #4C9F35;
+  box-sizing: border-box;
+  display: inline-block;
+  border-radius: 50%;
+  background: url(../img/path41.png) no-repeat center;
+  background-size: 10px;
+}
+
+.number p{
+  height: 26px;
+}
+
+.btn{
+  width: 126px;
+  height: 30px;
+  border: 1px solid #513E31;
+  box-sizing: border-box;
+  border-radius: 2px;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 21px;
+  color: #513E31;
+  padding: 3px 18px 5px 25px;
+}
+/*Конец оформления шапки*/
+/*Начало оформления контента первого слайда*/
+.content1{
+  min-height: 100vh;
+  background: linear-gradient(0deg, rgba(81, 62, 49, 0.43), rgba(81, 62, 49, 0.43)), url(../img/image.png) no-repeat center;
+  background-size: cover;
+}
+
+.p1-1{
+  padding-top: 229px;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.p1-2{
+  font-size: 54px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  line-height: 70px;
+  margin-top: 13px;
+}
+
+.c1-btn{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.c-btn{
+  background: #4C9F35;
+  border-radius: 2px;
+  padding: 13px 12px 10px 19px;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+/*Создаем узор по краям*/
+.snail{
+  display: inline-block;
+  position: relative;
+}
+
+.snail::after{
+  content: "";
+  display: inline-block;
+  height: 1em;
+  background: url(../img/u.png) no-repeat center;
+  width: 30px;
+  margin-left: 5px;
+}
+
+.snail::before{
+  content: "";
+  display: inline-block;
+  height: 1em;
+  background: url(../img/u.png) no-repeat center;
+  width: 30px;
+  margin-right: 5px;
+  transform: scaleX(-1);
+}
+/*узор по краям готов*/
+
+/*Конец оформления контента первого слайда*/
+/*Начало оформления контента второго слайда*/
+.slide2{
+  background: url(../img/s2.png) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.content2{
+  display: flex;
+  margin: auto;
+  width: 100%;
+  max-width: 1200px;
+  height: 100vh;
+}
+
+.s2h1{
+  font-size: 40px;
+  line-height: 59px;
+  text-transform: uppercase;
+  color: #513E31;
+  padding-top: 190px;
+  margin-bottom: 30px;
+}
+
+.snail2{
+  display: inline-block;
+  position: relative;
+}
+
+.snail2::after{
+  content: "";
+  display: inline-block;
+  height: 1em;
+  background: url(../img/u.png) no-repeat center;
+  width: 30px;
+  margin-left: 5px;
+}
+
+.s2p1{
+  font-size: 20px;
+  line-height: 30px;
+  color: #513E31;
+  width: 564px;
+  height: 151px;
+  margin-bottom: 30px;
+}
+
+.s2p2{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #513E31;
+  width: 531px;
+  height: 91px;
+  margin-bottom: 30px;
+}
+
+.s2p3{
+  font-size: 20px;
+  line-height: 30px;
+  color: #513E31;
+  height: 33px;
+}
+
+.snail3{
+  display: inline-block;
+  position: relative;
+}
+
+.snail3::after{
+  content: "";
+  display: inline-block;
+  height: 1em;
+  background: url(../img/path42.png) no-repeat center;
+  width: 30px;
+  margin-left: 5px;
+}
+
+.s2img{
+  margin-left: 10%;
+}
+
+.imgs2{
+  margin-top: 60%;
+  width: 469.24px;
+  height: 286.13px;
+}
+/*Конец оформления контента второго слайда*/
+/*Начало оформления контента третьего слайда*/
+.slide3{
+  height: 100vh;
+  min-height: 800px;
+}
+
+.up3{
+  display: flex;
+  justify-content: center;
+  padding: 0 10%;
+  padding-bottom: 2%;
+  height: 10%;
+  background: #513E31;
+}
+
+.s3h1{
+  font-size: 40px;
+  line-height: 59px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 30px;
+  margin-left: 45px;
+}
+
+.s3p1{
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  width: 355px;
+  margin-top: 30px;
+  margin-left: 45px;
+}
+
+.down3{
+  height: 90%;
+  background: url(../img/s3.jpg) no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.d3-1{
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.snail3-1{
+  display: inline-block;
+  position: relative;
+}
+
+.snail3-1::before{
+  content: "";
+  display: inline-block;
+  height: 1em;
+  background: url(../img/u.png) no-repeat center;
+  width: 30px;
+  margin-right: 5px;
+  transform: scaleX(-1);
+}
+/*Конец оформления контента третьего слайда*/
+/*Начало оформления контента четвертого слайда*/
+.slide4{
+  background: url(../img/s2.png) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  padding: 80px 10%;
+  min-height: 800px;
+}
+
+.s4-h1{
+  font-size: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.s4-d1{
+  display: flex;
+  justify-content: space-between;
+  min-width: 1100px;
+  min-height: 200px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.s4-d1-1,.s4-d1-2,.s4-d1-3{
+  min-width: 250px;
+  min-height: 250px;
+}
+
+.s4-number{
+  font-size: 40px;
+  font-weight: 500;
+  color: #5CB544;
+  margin-right: 15px;
+}
+
+.s4-p1,.s4-p2,.s4-p3,.s4-p4,.s4-p5,.s4-p6,.s4-p7,.s4-p8,.s4-p9{
+  font-size: 20px;
+  margin-bottom: 44px;
+}
+
+.s4p{
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.s4-d2{
+  margin-top: 40px;
+  min-width: 1100px;
+  min-height: 200px;
+  background: url(../img/26.png) no-repeat center;
+  background-size: contain;
+}
+/*Конец оформления контента четвертого слайда*/
+/*Начало оформления контента пятого слайда*/
+.slide5{
+  background: url(../img/s5.png) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  min-height: 800px;
+  padding: 80px 10%;
+}
+
+.s5-h1{
+  margin-top: 40px;
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.s5-d1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 782px;
+  margin-top: 70px;
+}
+.s5-d1-1,.s5-d1-2,.s5-d1-3,.s5-d1-4{
+  background: #FFFFFF;
+  border-radius: 2px;
+  margin: 8px;
+}
+
+.s5-d1-1,.s5-d1-2{
+  width: 383px;
+  height: 50px;
+}
+
+.s5-d1-3{
+  width: 782px;
+  height: 50px;
+}
+
+.s5-d1-4{
+  width: 782px;
+  height: 132px;
+}
+
+.name,.phone,.mail,.comment{
+  width: 94%;
+  padding: 10px;
+  border: none;
+  font-size: 20px;
+  font-family: 'Oswald';
+  color: #513E31;
+}
+
+.comment{
+  margin: 0px;
+  height: 111px;
+  width: 761px;
+}
+
+.s5-btn{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.s5-a1{
+  text-decoration: none;
+  padding: 15px 25px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #4C9F35;
+  border-radius: 2px;
+}
+
+.s5-p1{
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.s5-a2{
+  color: #4C9F35;
+}
+/*Конец оформления контента пятого слайда*/
+/*Начало оформления контента шестого слайда*/
+.slide6{
+  background: url(../img/s2.png) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  min-height: 800px;
+  padding: 80px 10%;
+}
+
+.s6-h1{
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #513E31;
+  margin-top: 10%;
+}
+
+.s6d{
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.s6-d1,.s6-d2{
+  margin: 10px;
+}
+
+.s6-i1,.s6-i2{
+  width: 505px;
+  height: 242px;
+}
+
+.s6-p1,.s6-p2{
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+.s6d2{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 400px;
+}
+/*Конец оформления контента шестого слайда*/
+/*Начало оформления контента седьмого слайда*/
+.slide7{
+  background: url(../img/s7.png) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  min-height: 800px;
+  padding: 80px 10%;
+}
+
+.s7-h1{
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 20%;
+}
+
+.s7d{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+
+.s7-d1,.s7-d2{
+  margin: 10px;
+}
+
+.s7-h3{
+  font-weight: 500;
+  font-size: 30px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.s7-p1{
+  width: 450px;
+  height: 200px;
+  font-size: 20px;
+  color: #FFFFFF;
+  line-height: 1.5;
+}
+
+.s7-p2{
+  font-weight: 500;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+/*Конец оформления контента седьмого слайда*/
+/*Начало оформления контента восьмого слайда*/
+.slide8{
+  width: 100%;
+  height: 100vh;
+}
+
+.s8d{
+  display: flex;
+  justify-content: space-around;
+}
+
+.s8-d1,.s8-d2{
+  margin-top: 152px;
+}
+
+.s8-h1{
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.s8-p1,.s8-p3{
+  font-size: 20px;
+}
+
+.s8-p2{
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.s8-p3{
+  margin-bottom: 25px;
+}
+
+.s8-d1{
+  width: 570px;
+}
+
+.s5-a1{
+  text-decoration: none;
+  padding: 15px 25px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #4C9F35;
+  border-radius: 2px;
+}
+
+.s8-top{
+  background: url(../img/s2.png) no-repeat center;
+  background-size: cover;
+  height: 80%;
+}
+
+.s8-down{
+  display: flex;
+  height: 20%;
+  background: #513E31;
+}
+
+.nav-way1{
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
+  margin-left: 27px;
+}
+
+.btn8{
+  width: 126px;
+  height: 30px;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 2px;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
+  padding: 3px 18px 5px 25px;
+}
+
+.s8-pn{
+  color: #FFFFFF;
+}
+
+.vk8{
+  margin-right: 11px;
+  width: 21px;
+  height: 21px;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  display: inline-block;
+  border-radius: 50%;
+  background: url(../img/vk8.png) no-repeat center;
+  background-size: 10px;
+}
+
+.inst8{
+  width: 21px;
+  height: 21px;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  display: inline-block;
+  border-radius: 50%;
+  background: url(../img/inst8.png) no-repeat center;
+  background-size: 10px;
+}
+
+.s8f{
+  display: flex;
+}
+
+.nav8{
+  display: flex;
+  justify-content: center;
+  margin-right: 30px;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.nav-key8{
+  display: flex;
+  margin-left: 400px;
+}
+
+.nav-bar8{
+  display: flex;
+}
+
+.nav-icons8{
+  display: flex;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.s8-a1{
+  text-decoration: none;
+  padding: 15px 25px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #4C9F35;
+  border-radius: 2px;
+  width: 180px;
+  height: 20px;
+  margin-left: 40px;
+}
+
+.s8-d2{
+  display: grid;
+}
