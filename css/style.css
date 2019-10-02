@@ -31,8 +31,9 @@ body{
 }
 
 .container{
-  width: 100%;
+  min-width: 1300px;
   height: 100%;
+  margin: 0 auto;
 }
 
 .slide1{
